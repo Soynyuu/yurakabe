@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	"classes" = {
+	};
+	"objectVersion" = "100";
+	"archiveVersion" = "1";
+	"objects" = {
+		"AA9B91D22E900B9F008812A9" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_WARN_RANGE_LOOP_ANALYSIS" = "YES";
+				"ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_STRICT_CONCURRENCY" = "complete";
+				"SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT" = "YES";
+				"SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY" = "YES";
+				"CLANG_WARN_INFINITE_RECURSION" = "YES";
+				"ONLY_ACTIVE_ARCH" = "YES";
+				"GCC_WARN_UNUSED_VARIABLE" = "YES";
+				"CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING" = "YES";
+				"CLANG_WARN_UNGUARDED_AVAILABILITY" = "YES_AGGRESSIVE";
+				"COPY_PHASE_STRIP" = "NO";
+				"CLANG_WARN_BOOL_CONVERSION" = "YES";
+				"CLANG_WARN_ENUM_CONVERSION" = "YES";
+				"CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS" = "YES";
+				"CLANG_WARN_COMMA" = "YES";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG $(inherited)";
+				"MACOSX_DEPLOYMENT_TARGET" = "26.0";
+				"CLANG_WARN_INT_CONVERSION" = "YES";
+				"SWIFT_VERSION" = "6.0";
+				"ENABLE_STRICT_OBJC_MSGSEND" = "YES";
+				"CLANG_WARN_DOCUMENTATION_COMMENTS" = "YES";
+				"CLANG_WARN_SUSPICIOUS_MOVE" = "YES";
+				"SDKROOT" = "macosx";
+				"CLANG_WARN_EMPTY_BODY" = "YES";
+				"MTL_ENABLE_DEBUG_INFO" = "INCLUDE_SOURCE";
+				"MTL_FAST_MATH" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_WARN_UNINITIALIZED_AUTOS" = "YES_AGGRESSIVE";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"DEAD_CODE_STRIPPING" = "YES";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_UPCOMING_FEATURE_INFER_ISOLATED_CONFORMANCES" = "YES";
+				"ALWAYS_SEARCH_USER_PATHS" = "NO";
+				"ENABLE_TESTABILITY" = "YES";
+				"CLANG_WARN_DIRECT_OBJC_ISA_USAGE" = "YES_ERROR";
+				"CLANG_WARN_CONSTANT_CONVERSION" = "YES";
+				"GCC_NO_COMMON_BLOCKS" = "YES";
+				"CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF" = "YES";
+				"SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT" = "YES";
+				"SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY" = "YES";
+				"CLANG_WARN_OBJC_ROOT_CLASS" = "YES_ERROR";
+				"LOCALIZATION_PREFERS_STRING_CATALOGS" = "YES";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "gnu++20";
+				"GCC_WARN_64_TO_32_BIT_CONVERSION" = "YES";
+				"CLANG_WARN__DUPLICATE_METHOD_MATCH" = "YES";
+				"GCC_DYNAMIC_NO_PIC" = "NO";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"GCC_WARN_UNDECLARED_SELECTOR" = "YES";
+				"CLANG_ANALYZER_NONNULL" = "YES";
+				"CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION" = "YES_AGGRESSIVE";
+				"CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" = "YES";
+				"CLANG_ENABLE_OBJC_WEAK" = "YES";
+				"CLANG_WARN_STRICT_PROTOTYPES" = "YES";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"STRING_CATALOG_GENERATE_SYMBOLS" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"GCC_WARN_ABOUT_RETURN_TYPE" = "YES_ERROR";
+				"GCC_WARN_UNUSED_FUNCTION" = "YES";
+				"CLANG_WARN_UNREACHABLE_CODE" = "YES";
+				"CLANG_WARN_NON_LITERAL_NULL_CONVERSION" = "YES";
+				"GCC_PREPROCESSOR_DEFINITIONS" = ("DEBUG=1", "$(inherited)");
+				"CLANG_WARN_OBJC_LITERAL_CONVERSION" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"0B33648D2F4FCB4B00060732" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "io.github.soynyuu.yurakabe.extension";
+				"STRING_CATALOG_GENERATE_SYMBOLS" = "YES";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "YurakabeWallpaperExtension";
+				"MACOSX_DEPLOYMENT_TARGET" = "26.0";
+				"DEAD_CODE_STRIPPING" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/../Frameworks", "@executable_path/../../../../Frameworks");
+				"SWIFT_VERSION" = "6.0";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SWIFT_APPROACHABLE_CONCURRENCY" = "YES";
+				"SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY" = "YES";
+				"INFOPLIST_KEY_NSHumanReadableCopyright" = "";
+				"SKIP_INSTALL" = "YES";
+				"ENABLE_APP_SANDBOX" = "YES";
+				"SWIFT_OBJC_BRIDGING_HEADER" = "YurakabeExtension/WallpaperExtension-Bridging-Header.h";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"INFOPLIST_FILE" = "YurakabeExtension/Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+			};
+			"name" = "Release";
+		};
+		"AA9B91C72E900B9E008812A9" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"files" = ();
+		};
+		"0B3364842F4FCB4B00060732" = {
+			"path" = "YurakabeExtension";
+			"isa" = "PBXFileSystemSynchronizedRootGroup";
+			"exceptions" = ("0B33648E2F4FCB4B00060732");
+			"sourceTree" = "<group>";
+		};
+		"AA9B91CB2E900B9E008812A9" = {
+			"path" = "Yurakabe";
+			"isa" = "PBXFileSystemSynchronizedRootGroup";
+			"exceptions" = ();
+			"sourceTree" = "<group>";
+		};
+		"AA9B91D32E900B9F008812A9" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_WARN_RANGE_LOOP_ANALYSIS" = "YES";
+				"ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS" = "YES";
+				"SWIFT_STRICT_CONCURRENCY" = "complete";
+				"SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT" = "YES";
+				"SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY" = "YES";
+				"CLANG_WARN_INFINITE_RECURSION" = "YES";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"GCC_WARN_UNUSED_VARIABLE" = "YES";
+				"CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING" = "YES";
+				"CLANG_WARN_UNGUARDED_AVAILABILITY" = "YES_AGGRESSIVE";
+				"COPY_PHASE_STRIP" = "NO";
+				"CLANG_WARN_BOOL_CONVERSION" = "YES";
+				"CLANG_WARN_ENUM_CONVERSION" = "YES";
+				"CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS" = "YES";
+				"CLANG_WARN_COMMA" = "YES";
+				"MACOSX_DEPLOYMENT_TARGET" = "26.0";
+				"CLANG_WARN_INT_CONVERSION" = "YES";
+				"SWIFT_VERSION" = "6.0";
+				"ENABLE_STRICT_OBJC_MSGSEND" = "YES";
+				"CLANG_WARN_DOCUMENTATION_COMMENTS" = "YES";
+				"CLANG_WARN_SUSPICIOUS_MOVE" = "YES";
+				"SDKROOT" = "macosx";
+				"CLANG_WARN_EMPTY_BODY" = "YES";
+				"MTL_ENABLE_DEBUG_INFO" = "NO";
+				"MTL_FAST_MATH" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_WARN_UNINITIALIZED_AUTOS" = "YES_AGGRESSIVE";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"DEAD_CODE_STRIPPING" = "YES";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_UPCOMING_FEATURE_INFER_ISOLATED_CONFORMANCES" = "YES";
+				"ALWAYS_SEARCH_USER_PATHS" = "NO";
+				"CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF" = "YES";
+				"CLANG_WARN_DIRECT_OBJC_ISA_USAGE" = "YES_ERROR";
+				"CLANG_WARN_CONSTANT_CONVERSION" = "YES";
+				"GCC_NO_COMMON_BLOCKS" = "YES";
+				"SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT" = "YES";
+				"SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY" = "YES";
+				"CLANG_WARN_OBJC_ROOT_CLASS" = "YES_ERROR";
+				"LOCALIZATION_PREFERS_STRING_CATALOGS" = "YES";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "gnu++20";
+				"GCC_WARN_64_TO_32_BIT_CONVERSION" = "YES";
+				"CLANG_WARN__DUPLICATE_METHOD_MATCH" = "YES";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"GCC_WARN_UNDECLARED_SELECTOR" = "YES";
+				"CLANG_ANALYZER_NONNULL" = "YES";
+				"CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION" = "YES_AGGRESSIVE";
+				"CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" = "YES";
+				"CLANG_ENABLE_OBJC_WEAK" = "YES";
+				"CLANG_WARN_STRICT_PROTOTYPES" = "YES";
+				"STRING_CATALOG_GENERATE_SYMBOLS" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"GCC_WARN_ABOUT_RETURN_TYPE" = "YES_ERROR";
+				"GCC_WARN_UNUSED_FUNCTION" = "YES";
+				"CLANG_WARN_UNREACHABLE_CODE" = "YES";
+				"ENABLE_NS_ASSERTIONS" = "NO";
+				"CLANG_WARN_NON_LITERAL_NULL_CONVERSION" = "YES";
+				"CLANG_WARN_OBJC_LITERAL_CONVERSION" = "YES";
+			};
+			"name" = "Release";
+		};
+		"0B33647F2F4FCB4B00060732" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"files" = ();
+		};
+		"0B33648E2F4FCB4B00060732" = {
+			"isa" = "PBXFileSystemSynchronizedBuildFileExceptionSet";
+			"membershipExceptions" = ("Info.plist");
+			"target" = "0B3364822F4FCB4B00060732";
+		};
+		"AA9B91C82E900B9E008812A9" = {
+			"dependencies" = ("0B3364892F4FCB4B00060732");
+			"buildConfigurationList" = "AA9B91D42E900B9F008812A9";
+			"productReference" = "AA9B91C92E900B9E008812A9";
+			"productType" = "com.apple.product-type.application";
+			"packageProductDependencies" = ();
+			"productName" = "Yurakabe";
+			"isa" = "PBXNativeTarget";
+			"fileSystemSynchronizedGroups" = ("AA9B91CB2E900B9E008812A9");
+			"buildPhases" = ("AA9B91C52E900B9E008812A9", "AA9B91C62E900B9E008812A9", "AA9B91C72E900B9E008812A9", "0B33648B2F4FCB4B00060732");
+			"name" = "Yurakabe";
+			"buildRules" = ();
+		};
+		"0B3364802F4FCB4B00060732" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"files" = ();
+		};
+		"0B33648F2F4FCB4B00060732" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("0B33648C2F4FCB4B00060732", "0B33648D2F4FCB4B00060732");
+			"defaultConfigurationName" = "Release";
+		};
+		"AA9B91D42E900B9F008812A9" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("AA9B91D62E900B9F008812A9", "AA9B928E2E9057E5008812A9");
+			"defaultConfigurationName" = "Release";
+		};
+		"AA9B91C92E900B9E008812A9" = {
+			"path" = "Yurakabe.app";
+			"isa" = "PBXFileReference";
+			"includeInIndex" = "0";
+			"explicitFileType" = "wrapper.application";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"0B3364812F4FCB4B00060732" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"files" = ();
+		};
+		"0B33648A2F4FCB4B00060732" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0B3364832F4FCB4B00060732";
+			"settings" = {
+				"ATTRIBUTES" = ("RemoveHeadersOnCopy");
+			};
+		};
+		"AA9B91C42E900B9E008812A9" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("AA9B91D22E900B9F008812A9", "AA9B91D32E900B9F008812A9");
+			"defaultConfigurationName" = "Release";
+		};
+		"0B33648B2F4FCB4B00060732" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"dstPath" = "$(EXTENSIONS_FOLDER_PATH)";
+			"dstSubfolder" = "Product";
+			"files" = ("0B33648A2F4FCB4B00060732");
+			"name" = "Embed ExtensionKit Extensions";
+		};
+		"AA9B91C52E900B9E008812A9" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"files" = ();
+		};
+		"AA9B91C02E900B9E008812A9" = {
+			"isa" = "PBXGroup";
+			"sourceTree" = "<group>";
+			"children" = ("AA9B91CB2E900B9E008812A9", "0B3364842F4FCB4B00060732", "AA9B91CA2E900B9E008812A9");
+		};
+		"0B3364822F4FCB4B00060732" = {
+			"buildConfigurationList" = "0B33648F2F4FCB4B00060732";
+			"productReference" = "0B3364832F4FCB4B00060732";
+			"productType" = "com.apple.product-type.extensionkit-extension";
+			"productName" = "YurakabeExtension";
+			"isa" = "PBXNativeTarget";
+			"fileSystemSynchronizedGroups" = ("0B3364842F4FCB4B00060732");
+			"buildPhases" = ("0B33647F2F4FCB4B00060732", "0B3364802F4FCB4B00060732", "0B3364812F4FCB4B00060732");
+			"name" = "YurakabeExtension";
+			"buildRules" = ();
+		};
+		"AA9B91D62E900B9F008812A9" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GCC_WARN_UNUSED_LABEL" = "YES";
+				"MACOSX_DEPLOYMENT_TARGET" = "26.0";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "io.github.soynyuu.yurakabe";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"DEAD_CODE_STRIPPING" = "YES";
+				"MARKETING_VERSION" = "0.1.0";
+				"SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY" = "YES";
+				"SWIFT_TREAT_WARNINGS_AS_ERRORS" = "YES";
+				"CODE_SIGN_IDENTITY" = "Apple Development";
+				"INFOPLIST_KEY_LSUIElement" = "YES";
+				"REGISTER_APP_GROUPS" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PROVISIONING_PROFILE_SPECIFIER" = "";
+				"STRING_CATALOG_GENERATE_SYMBOLS" = "YES";
+
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SWIFT_APPROACHABLE_CONCURRENCY" = "YES";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"SWIFT_VERSION" = "6.0";
+				"GCC_TREAT_WARNINGS_AS_ERRORS" = "YES";
+				"ENABLE_PREVIEWS" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/../Frameworks");
+				"GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS" = "YES";
+				"INFOPLIST_FILE" = "Info.plist";
+				"ENABLE_APP_SANDBOX" = "NO";
+				"SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY" = "YES";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.utilities";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"SWIFT_STRICT_MEMORY_SAFETY" = "YES";
+				"GCC_WARN_UNUSED_PARAMETER" = "YES";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION" = "YES_ERROR";
+				"GCC_WARN_UNKNOWN_PRAGMAS" = "YES";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT" = "YES";
+			};
+			"name" = "Release";
+		};
+		"0B3364882F4FCB4B00060732" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "AA9B91C12E900B9E008812A9";
+			"remoteGlobalIDString" = "0B3364822F4FCB4B00060732";
+			"remoteInfo" = "YurakabeExtension";
+			"proxyType" = "1";
+		};
+		"0B3364832F4FCB4B00060732" = {
+			"path" = "YurakabeExtension.appex";
+			"isa" = "PBXFileReference";
+			"includeInIndex" = "0";
+			"explicitFileType" = "wrapper.extensionkit-extension";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"AA9B91CA2E900B9E008812A9" = {
+			"isa" = "PBXGroup";
+			"name" = "Products";
+			"children" = ("AA9B91C92E900B9E008812A9", "0B3364832F4FCB4B00060732");
+			"sourceTree" = "<group>";
+		};
+		"0B33648C2F4FCB4B00060732" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "io.github.soynyuu.yurakabe.extension";
+				"STRING_CATALOG_GENERATE_SYMBOLS" = "YES";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "YurakabeWallpaperExtension";
+				"MACOSX_DEPLOYMENT_TARGET" = "26.0";
+				"DEAD_CODE_STRIPPING" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/../Frameworks", "@executable_path/../../../../Frameworks");
+				"SWIFT_VERSION" = "6.0";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SWIFT_APPROACHABLE_CONCURRENCY" = "YES";
+				"SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY" = "YES";
+				"INFOPLIST_KEY_NSHumanReadableCopyright" = "";
+				"SKIP_INSTALL" = "YES";
+				"ENABLE_APP_SANDBOX" = "YES";
+				"SWIFT_OBJC_BRIDGING_HEADER" = "YurakabeExtension/WallpaperExtension-Bridging-Header.h";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"INFOPLIST_FILE" = "YurakabeExtension/Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"0B3364892F4FCB4B00060732" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "0B3364822F4FCB4B00060732";
+			"targetProxy" = "0B3364882F4FCB4B00060732";
+		};
+		"AA9B91C62E900B9E008812A9" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"files" = ();
+		};
+		"AA9B91C12E900B9E008812A9" = {
+			"buildConfigurationList" = "AA9B91C42E900B9E008812A9";
+			"packageReferences" = ();
+			"targets" = ("AA9B91C82E900B9E008812A9", "0B3364822F4FCB4B00060732");
+			"minimizedProjectReferenceProxies" = "1";
+			"developmentRegion" = "en";
+			"knownRegions" = ("en", "Base");
+			"isa" = "PBXProject";
+			"productRefGroup" = "AA9B91CA2E900B9E008812A9";
+			"projectDirPath" = "";
+			"attributes" = {
+				"LastSwiftUpdateCheck" = "2620";
+				"BuildIndependentTargetsInParallel" = "1";
+				"LastUpgradeCheck" = "2640";
+				"TargetAttributes" = {
+					"0B3364822F4FCB4B00060732" = {
+						"CreatedOnToolsVersion" = "26.2";
+					};
+					"AA9B91C82E900B9E008812A9" = {
+						"CreatedOnToolsVersion" = "26.0.1";
+					};
+				};
+			};
+			"hasScannedForEncodings" = "0";
+			"mainGroup" = "AA9B91C02E900B9E008812A9";
+			"preferredProjectObjectVersion" = "90";
+			"projectRoot" = "";
+		};
+		"AA9B928E2E9057E5008812A9" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GCC_WARN_UNUSED_LABEL" = "YES";
+				"MACOSX_DEPLOYMENT_TARGET" = "26.0";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "io.github.soynyuu.yurakabe";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"DEAD_CODE_STRIPPING" = "YES";
+				"MARKETING_VERSION" = "0.1.0";
+				"SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY" = "YES";
+				"SWIFT_TREAT_WARNINGS_AS_ERRORS" = "YES";
+				"CODE_SIGN_IDENTITY" = "Apple Development";
+				"INFOPLIST_KEY_LSUIElement" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PROVISIONING_PROFILE_SPECIFIER" = "";
+				"PRODUCT_NAME" = "Yurakabe";
+
+				"SWIFT_VERSION" = "6.0";
+				"SWIFT_APPROACHABLE_CONCURRENCY" = "YES";
+				"GCC_TREAT_WARNINGS_AS_ERRORS" = "YES";
+				"GCC_DYNAMIC_NO_PIC" = "NO";
+				"GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS" = "YES";
+				"INFOPLIST_FILE" = "Info.plist";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY" = "YES";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"COPY_PHASE_STRIP" = "NO";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.utilities";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"SWIFT_STRICT_MEMORY_SAFETY" = "YES";
+				"GCC_WARN_UNUSED_PARAMETER" = "YES";
+				"CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION" = "YES_ERROR";
+				"GCC_WARN_UNKNOWN_PRAGMAS" = "YES";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT" = "YES";
+			};
+			"name" = "Debug";
+		};
+	};
+	"rootObject" = "AA9B91C12E900B9E008812A9";
+}

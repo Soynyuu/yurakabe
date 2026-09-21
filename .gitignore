@@ -1,0 +1,12 @@
+.DS_Store
+build/
+*.log
+*.xcuserstate
+xcuserdata/
+*.app
+*.appex
+*.mov
+*.mp4
+*.m4v
+*.bmp
+*.dSYM/
