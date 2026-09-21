@@ -111,10 +111,11 @@ func buildSettingsViewModelsXPC() async -> AnyObject? {
         isModificationDisabled: false,
     )
 
-    // Keep this provider out of the screen-saver picker. Users retain their own saver.
+    // Supply both view models, as required by the unified wallpaper picker.
+    // This advertises capability but does not change the user's screen-saver selection.
     let viewModels = SettingsViewModels(
         desktop: viewModel,
-        screenSaver: nil,
+        screenSaver: viewModel,
     )
 
     return remapToRealXPC(viewModels)

@@ -16,3 +16,10 @@ jobs:
         run: ./scripts/test.sh
       - name: Build and verify local signature
         run: ./scripts/build.sh
+      - name: Package development build
+        run: ditto -c -k --sequesterRsrc --keepParent build/Build/Products/Release/Yurakabe.app build/Yurakabe.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Yurakabe-development
+          path: build/Yurakabe.zip
+          retention-days: 7
